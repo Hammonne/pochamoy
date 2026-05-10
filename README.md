@@ -2,17 +2,33 @@
 
 ## Paso a paso
 
+### Paso 1
+Esto lo haces una vez nomass
 Primero cambiar usuario y la otra wbd cambiar lo que esta entre comillas
 
 ```powershell
 git config --global user.name "nombre_ususario" 
 ```
-
 pon tu correo pe
 ```powershell
 git config --global user.email "correo@utec.edu.pe"
 ```
+
+### Paso 2
 hacer add y commit de tus cambios :)
+```powershell
+git add archivo_modificado.py
+```
+o
+```powershell
+git add .
+```
+
+luego
+
+```powershell
+git commit -m "mensaje"
+```
 
 correr este comando, cambiando la fecha a la que quieras
 ```powershell
